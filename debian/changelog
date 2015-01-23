@@ -1,0 +1,5 @@
+catalyst-dependency-erlang (1.0) UNRELEASED; urgency=medium
+
+  * Initial release. (Redmine: #11566)
+
+ -- Dale Smith <dale@catalyst-eu.net>  Fri, 23 Jan 2015 16:22:32 +0000

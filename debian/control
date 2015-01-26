@@ -3,12 +3,11 @@ Section: misc
 Priority: optional
 Maintainer: Dale Smith <dale@catalyst-eu.net>
 Standards-Version: 3.9.5
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 9)
 
 Package: catalyst-dependency-erlang
-Architecture: all
-Priority: optional
-Depends: ${shlibs:Depends}, ${misc:Depends}, erlang-nox (>= 1:16)
+Architecture: amd64
+Depends: erlang-nox (>= 1:16), ${misc:Depends}
 Description: Catalyst Openstack erlang minimum version dependency
  This dummy package depends on erlang-nox version R16B01 or greater.
  The purpose of this is for proper RabbitMQ SSL support 

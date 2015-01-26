@@ -1,4 +1,10 @@
-catalyst-dependency-erlang (1.0) UNRELEASED; urgency=medium
+catalyst-dependency-erlang (1.0ubuntu1) precise; urgency=medium
+
+  * Updating things to attempt to make PPAs build properly 
+
+ -- Dale Smith <dale@catalyst-eu.net>  Fri, 23 Jan 2015 18:49:50 +0000
+
+catalyst-dependency-erlang (1.0) precise; urgency=medium
 
   * Initial release. (Redmine: #11566)
 

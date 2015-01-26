@@ -6,7 +6,7 @@ Standards-Version: 3.9.5
 Build-Depends: debhelper (>= 9)
 
 Package: catalyst-dependency-erlang
-Architecture: amd64
+Architecture: all
 Depends: erlang-nox (>= 1:16), ${misc:Depends}
 Description: Catalyst Openstack erlang minimum version dependency
  This dummy package depends on erlang-nox version R16B01 or greater.
